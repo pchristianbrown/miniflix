@@ -34,7 +34,7 @@ class Display extends Component {
         <div className="col-sm-12">
           <CloudinaryContext cloudName="pcbeecloud">
             { videos.map((data, index) => (
-                <div className="col-sm-4" key={index}>
+                <div className="col-sm-4" key={811684443214266}>
                   <div className="embed-responsive embed-responsive-4by3">
                     <Video publicId={data.public_id} width="300" height="300" controls></Video>
                   </div>
